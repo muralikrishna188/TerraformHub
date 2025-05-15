@@ -1,12 +1,5 @@
 terraform {
-  backend "azurerm" {
-    resource_group_name = "Amazon-Mobile-Dev-RG1"
-    storage_account_name = "amazonmobiledevstorage"
-    container_name = "prodconfig"
-    key = "terraform.prodconfig"
-    access_key = "L7P0+jjRQa8HQNOZae+7GwRxhu0wAWX/I4dErFVbJEqcSq/YPV3stF01VtipF1T4qpmN9FqFOiId+AStL08I2A=="
-    
-  }
+
   required_providers {
     azurerm = {
         source = "hashicorp/azurerm"
