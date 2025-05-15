@@ -22,7 +22,7 @@ locals {
   setup_name = "amazon-hyd"
 }
 resource "azurerm_resource_group" "azapprg101" {
-    name = "azureapprg"
+    name = "azureapprg002"
     location = "central us"
     tags = {
       "name" = "${local.setup_name}-rsg"
